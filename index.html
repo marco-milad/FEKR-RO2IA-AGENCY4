@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency Website</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+    <link rel="icon" href="./images/logo2.png" type="image/x-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <!-- مكان الناف بار -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-section text-center py-5" id="home">
+        <div class="container">
+          <div class="parent">
+            <div class="line"></div>
+            <h5  class="hero-subtitle mb-3 animate">فكر و رؤية</h5>
+
+            <div class="line"></div>
+          </div>
+          <h1 class="hero-title mb-4 animate delay-1">وكالة رائدة في الدعاية والإعلان</h1>
+          <p class="hero-text mb-4 animate delay-2">
+            نبتكر حلول تسويقية متكاملة تساعد علامتك التجارية على النمو والتميز
+            في السوق المحلي والعالمي.
+          </p>
+          <div class="d-flex justify-content-center gap-3 flex-wrap animate delay-3">
+            <a href="#contact" class="btn btn-primary custom-btn">تواصل معنا</a>
+            <a href="#about" class="btn btn-outline-dark">اعرف المزيد</a>
+          </div>
+        </div>
+
+        <!-- فيديو أسفل النصوص -->
+        <div class="hero-video mt-5 container-fluid">
+          <div
+            class="card border-0 shadow rounded-3 overflow-hidden position-relative">
+            <video 
+  id="heroVideo" 
+  autoplay 
+  muted 
+  loop 
+  playsinline 
+  webkit-playsinline 
+  controls 
+  class="w-100 h-100"
+>
+  <source
+    src="https://res.cloudinary.com/dcui0elwh/video/upload/v1759228625/bromo_kl9aks.mp4"
+    type="video/mp4"
+  />
+  متصفحك لا يدعم تشغيل الفيديو.
+</video>
+
+            <!-- Overlay -->
+            <div class="video-overlay position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center">
+
+            </div>
+             <button id="muteToggle" class="btn btn-sm btn-light position-absolute bottom-0 end-0 m-3" title="كتم/إلغاء كتم الصوت">
+              <span id="muteIcon" class="bi bi-volume-mute-fill"></span>
+            
+    </button>
+          </div>
+        </div>
+        
+      </section>
+
+      <!-- About Section start -->
+<section id="about" class="about-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- النصوص -->
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h2 class="about-title mb-3 animate delay-1">من نحن</h2>
+        <p class="about-text mb-3 animate delay-2">
+          نحن وكالة متخصصة في تقديم حلول إبداعية متكاملة في مجال الدعاية والإعلان،
+          نساعد العلامات التجارية على النمو والتأثير في السوق من خلال استراتيجيات
+          مدروسة وأفكار مبتكرة.
+        </p>
+        
+       <p class="about-text animate delay-3">
+        بفضل شغفنا بالإبداع واعتمادنا على أحدث التقنيات، نضع دائمًا العميل في قلب كل مشروع.
+         رؤيتنا هي بناء تجارب مميزة تعزز قيمة العلامة التجارية وتترك انطباعًا يدوم،
+          مع التركيز على تحقيق نتائج ملموسة تساهم في نمو الأعمال واستمرار نجاحها.
+       </p>
+        <a href="#about" class="btn btn-primary custom-btn animate delay-3">اكتشف المزيد عن من نحن</a>
+
+
+      </div>
+
+      <!-- الإحصائيات -->
+      <div class="col-lg-6">
+        <div class="row text-center">
+
+          <div class="col-6 col-md-4 mb-4">
+            <div class="stat-box">
+              <span class="stat-value" data-target="90">0%</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="90"></div>
+              </div>
+              <p class="stat-label">رضا العملاء</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 mb-4">
+            <div class="stat-box">
+              <span class="stat-value" data-target="75">0%</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="75"></div>
+              </div>
+              <p class="stat-label">نمو الحملات</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 mb-4">
+            <div class="stat-box">
+              <span class="stat-value" data-target="85">0%</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="85"></div>
+              </div>
+              <p class="stat-label">العائد الاستثماري</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 mb-4">
+            <div class="stat-box">
+              <span class="stat-value" data-target="70">0%</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="70"></div>
+              </div>
+              <p class="stat-label">طلب الخدمات</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-4 mb-4">
+            <div class="stat-box">
+              <span class="stat-value" data-target="65">0%</span>
+              <div class="progress">
+                <div class="progress-bar" data-width="65"></div>
+              </div>
+              <p class="stat-label">نمو الوكالة</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section> 
+<!--  About Section end -->
+
+<!--  Services Section start -->
+  <section id="services" class="services-section py-5">
+  <div class="container">
+    <div class="text-center mb-5" >
+      <h2 class="section-title animate delay-1" >خدماتنا</h2>
+      <p class="section-subtitle animate delay-2" >نوفر مجموعة متنوعة من الخدمات الإبداعية لدعم نجاحك ونمو علامتك التجارية</p>
+    </div>
+    <div class="row g-4">
+      
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-3" >
+          <div class="icon-box mb-3" >
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <h5 class="service-title">الدعاية والإعلان</h5>
+          <p class="service-text">نصمم وننفذ حملات دعائية مبتكرة تعزز حضور علامتك التجارية.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-4" >
+          <div class="icon-box mb-3">
+            <i class="fas fa-pen-nib"></i>
+          </div>
+          <h5 class="service-title">التصميم الجرافيكي</h5>
+          <p class="service-text">إبداع بصري يعكس هوية شركتك ويجذب عملاءك بشكل مميز.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="#" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-5" >
+          <div class="icon-box mb-3">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h5 class="service-title">التسويق الرقمي</h5>
+          <p class="service-text">استراتيجيات تسويق عبر الإنترنت لتحقيق أقصى تأثير ونتائج.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="#" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-6" >
+          <div class="icon-box mb-3">
+            <i class="fas fa-video"></i>
+          </div>
+          <h5 class="service-title">إنتاج الفيديو</h5>
+          <p class="service-text">إنتاج فيديوهات احترافية للتسويق والترويج لعلامتك التجارية.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="#" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-7" >
+          <div class="icon-box mb-3">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h5 class="service-title">تصميم المواقع</h5>
+          <p class="service-text">بناء مواقع احترافية متجاوبة تلبي احتياجات عملك.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="#" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-8" >
+          <div class="icon-box mb-3">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h5 class="service-title">الاستشارات التسويقية</h5>
+          <p class="service-text">نمنحك الرؤية والاستراتيجية الأنسب لتطوير أعمالك.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="#" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-9" >
+          <div class="icon-box mb-3">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h5 class="service-title">الاستشارات التسويقية</h5>
+          <p class="service-text">نمنحك الرؤية والاستراتيجية الأنسب لتطوير أعمالك.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="#" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-10" >
+          <div class="icon-box mb-3">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h5 class="service-title">الاستشارات التسويقية</h5>
+          <p class="service-text">نمنحك الرؤية والاستراتيجية الأنسب لتطوير أعمالك.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="#" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+      <!-- Service Card -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card p-4 h-100 animate delay-11" >
+          <div class="icon-box mb-3">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h5 class="service-title">الاستشارات التسويقية</h5>
+          <p class="service-text">نمنحك الرؤية والاستراتيجية الأنسب لتطوير أعمالك.</p>
+          <p class="small">ما الذي يتضمنه هذه الخدمة؟</p>
+          <a href="#" class="btn btn-service">اعرف المزيد</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--  Services Section end -->
+
+
+<!--  call Section start -->
+  <section class="cta-section py-5">
+  <div class="container text-center">
+    <h2 class="cta-title mb-4 cta-animate delay-1" >
+      هل تريد معرفة المزيد من التفاصيل حول خدماتنا وأسعارنا؟
+    </h2>
+    <a href="#contact" class="btn btn-cta cta-animate delay-2">احصل على عرض</a>
+  </div>
+</section>
+
+<!--  call Section end -->
+
+  
+  <!-- Works Section Start -->
+<section id="works" class="works-section py-5">
+  <div class="container">
+
+    <!-- العنوان + الوصف -->
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+      <div>
+        <h2 class="section-title mb-2 animate delay-1">أعمالنا</h2>
+        <p class="section-subtitle animate delay-2">
+          نقدم حلولاً إبداعية مدعومة بالبيانات لابتكار حملات تسويقية مؤثرة تحقق نتائج حقيقية.
+        </p>
+      </div>
+      <a href="#" class="btn btn-showmore animate delay-3 animate delay-3" >عرض المزيد</a>
+    </div>
+
+    <!-- مشروع 1 -->
+    <div class="row align-items-center mb-5  ">
+      <div class="col-md-6 order-md-2 slide-left">
+        <img src="https://res.cloudinary.com/dcui0elwh/image/upload/v1759452821/photo_2025-10-03_02-32-56_ph1jrh.jpg" class="img-fluid rounded shadow" alt="Project 1">
+      </div>
+      <div class="col-md-6 order-md-1 slide-right">
+        <span class="badge project-tag">تحسين محركات البحث</span>
+        <h4 class="work-title">زيادة زيارات العملاء عبر SEO</h4>
+        <p class="work-text">
+          عززنا الزيارات العضوية بنسبة ٥٠٪ من خلال استراتيجيات دقيقة في اختيار الكلمات المفتاحية وتحسين صفحات المواقع.
+        </p>
+        <span class="badge stat-badge">+٥٠٪ نمو في الزيارات</span>
+      </div>
+    </div>
+
+    <!-- مشروع 2 -->
+    <div class="row align-items-center mb-5 ">
+      <div class="col-md-6 slide-right">
+        <img src="https://res.cloudinary.com/dcui0elwh/image/upload/v1759452871/photo_2025-10-03_02-32-52_ol26xl.jpg" class="img-fluid rounded shadow" alt="Project 2">
+      </div>
+      <div class="col-md-6 slide-left">
+        <span class="badge project-tag ">إدارة وسائل التواصل</span>
+        <h4 class="work-title">زيادة التفاعل عبر الحملات الإبداعية</h4>
+        <p class="work-text">
+          من خلال استراتيجيات مبتكرة في المحتوى والتفاعل، رفعنا معدل التفاعل بنسبة ٧٥٪ وعززنا ارتباط العلامة بالجمهور.
+        </p>
+        <span class="badge stat-badge">+٧٥٪ معدل التفاعل</span>
+      </div>
+    </div>
+
+    <!-- مشروع 3 -->
+    <div class="row align-items-center mb-5 ">
+      <div class="col-md-6 order-md-2 slide-left">
+        <img src="https://res.cloudinary.com/dcui0elwh/image/upload/v1759452923/photo_2025-10-03_02-33-01_ftq9en.jpg" class="img-fluid rounded shadow" alt="Project 3">
+      </div>
+      <div class="col-md-6 order-md-1 slide-right">
+        <span class="badge project-tag">استراتيجية العلامة التجارية</span>
+        <h4 class="work-title">تعزيز هوية العلامة التجارية</h4>
+        <p class="work-text">
+          عملنا على تطوير الهوية البصرية لزيادة ولاء العملاء بنسبة ٦٠٪ وتحسين حضور العلامة في السوق.
+        </p>
+        <span class="badge stat-badge">+٦٠٪ نمو في الولاء</span>
+      </div>
+    </div>
+    <!-- مشروع 4 -->
+    <div class="row align-items-center mb-5 ">
+      <div class="col-md-6 slide-right">
+        <img src="https://res.cloudinary.com/dcui0elwh/image/upload/v1759453003/photo_2025-10-03_02-33-07_jfrkzp.jpg" class="img-fluid rounded shadow" alt="Project 2">
+      </div>
+      <div class="col-md-6 slide-left">
+        <span class="badge project-tag">إدارة وسائل التواصل</span>
+        <h4 class="work-title">زيادة التفاعل عبر الحملات الإبداعية</h4>
+        <p class="work-text">
+          من خلال استراتيجيات مبتكرة في المحتوى والتفاعل، رفعنا معدل التفاعل بنسبة ٧٥٪ وعززنا ارتباط العلامة بالجمهور.
+        </p>
+        <span class="badge stat-badge">+٧٥٪ معدل التفاعل</span>
+      </div>
+    </div>
+
+    <!-- مشروع 5 -->
+    <div class="row align-items-center mb-5 ">
+      <div class="col-md-6 order-md-2 slide-left">
+        <img src="https://res.cloudinary.com/dcui0elwh/image/upload/v1759453049/WhatsApp_Image_2025-09-02_at_12.53.32_33b70d9d_fg4ayu.jpg" class="img-fluid rounded shadow" alt="Project 3">
+      </div>
+      <div class="col-md-6 order-md-1 slide-right">
+        <span class="badge project-tag">استراتيجية العلامة التجارية</span>
+        <h4 class="work-title">تعزيز هوية العلامة التجارية</h4>
+        <p class="work-text">
+          عملنا على تطوير الهوية البصرية لزيادة ولاء العملاء بنسبة ٦٠٪ وتحسين حضور العلامة في السوق.
+        </p>
+        <span class="badge stat-badge">+٦٠٪ نمو في الولاء</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!--  our work Section end -->
+
+<!-- Testimonials Section Start -->
+<section id="testimonials" class="testimonials-section py-5">
+  <div class="container text-center">
+    
+    <!-- Header -->
+    <div class="mb-5 animate delay-1">
+      <h2 class="section-title">آراء عملائنا</h2>
+      <p class="section-subtitle">
+        نعتز بثقة عملائنا ونفخر بتجاربهم الناجحة معنا في تطوير أعمالهم وتحقيق أهدافهم التسويقية.
+      </p>
+    </div>
+
+    <!-- Slider Wrapper -->
+    <div id="testimonial-slider" class="row g-4 justify-content-center">
+      <!-- Testimonial 1 -->
+      <div class="col-md-6 testimonial-card-wrapper active">
+        <div class="testimonial-card p-4 h-100 text-start">
+          <div class="d-flex align-items-center mb-3">
+            <!-- <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="عميل" class="testimonial-img me-3"> -->
+            <div>
+              <h6 class="client-name mb-0">أحمد فوزي</h6>
+              <small class="client-role text-muted">مدير تسويق - شركة نوفا</small>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "فريق فكر ورؤية ساعدنا في تطوير استراتيجيتنا التسويقية الرقمية بشكل احترافي، والنتائج كانت مذهلة في فترة قصيرة."
+          </p>
+        </div>
+      </div>
+
+      <!-- Testimonial 2 -->
+      <div class="col-md-6 testimonial-card-wrapper">
+        <div class="testimonial-card p-4 h-100 text-start">
+          <div class="d-flex align-items-center mb-3">
+            <!-- <img src="https://randomuser.me/api/portraits/women/15.jpg" alt="عميلة" class="testimonial-img me-3"> -->
+            <div>
+              <h6 class="client-name mb-0">سارة إبراهيم</h6>
+              <small class="client-role text-muted">مديرة المحتوى - كرييتف ميديا</small>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "تعامل احترافي وسرعة في التنفيذ، ساعدوني على توسيع نطاق الحملة التسويقية وزيادة التفاعل على المنصات".
+          </p>
+        </div>
+      </div>
+
+      <!-- Testimonial 3 -->
+      <div class="col-md-6 testimonial-card-wrapper">
+        <div class="testimonial-card p-4 h-100 text-start">
+          <div class="d-flex align-items-center mb-3">
+            <!-- <img src="https://randomuser.me/api/portraits/men/33.jpg" alt="عميل" class="testimonial-img me-3"> -->
+            <div>
+              <h6 class="client-name mb-0">محمد عبد الرحمن</h6>
+              <small class="client-role text-muted">صاحب وكالة ديزاين</small>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "بفضل خدمات فكر ورؤية، قدرنا نحصل على زيادة كبيرة في الوعي بالعلامة التجارية خلال شهرين فقط!"
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination-controls d-flex justify-content-center align-items-center mt-4 animate delay-4">
+      <button id="prevBtn" class="btn btn-outline-dark mx-2" aria-label="التالي"><i class="fas fa-chevron-right"></i></button>
+      <span id="pageIndicator" class="page-number">1 / 3</span>
+      <button id="nextBtn" class="btn btn-outline-dark mx-2" aria-label="السابق"><i class="fas fa-chevron-left"></i></button>
+    </div>
+
+  </div>
+</section>
+<!-- Testimonials Section End -->
+
+<!-- Clients Section Start -->
+<section id="clients" class="clients-section py-5">
+  <div class="container text-center">
+
+    <!-- Header -->
+    <div class="mb-5 animate delay-1">
+      <h2 class="section-title">عملاؤنا</h2>
+      <p class="section-subtitle">
+        نفخر بثقة شركائنا وعملائنا الذين شاركونا النجاح في مشاريع مميزة عبر مختلف المجالات.
+      </p>
+    </div>
+
+    <!-- Clients Grid -->
+    <div class="row g-4 justify-content-center">
+      <!-- Client Logo -->
+      <div class="col-6 col-md-4 col-lg-2 animate delay-2">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/World_Health_Organization_Logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-3">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/UNICEF_Logo.png" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-4">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/UN_Women_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-5">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/UNAIDS_Logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-6">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/UNHCR_Logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <!-- الصف الثاني -->
+      <div class="col-6 col-md-4 col-lg-2 animate delay-2">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/UNODC_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-3">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/United_Nations_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-4">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/CBC_logo_2020.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-5">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/CEMEX_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-6">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Misr_Italia_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <!-- الصف الثالث -->
+      <div class="col-6 col-md-4 col-lg-2 animate delay-2">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/UN_Global_Compact_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-3">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/UNFPA_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-4">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/UMS_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-5">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/People_and_Places_logo.svg" alt="عميل">
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-2 animate delay-6">
+        <div class="client-logo">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/YLF_logo.svg" alt="عميل">
+        </div>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="mt-5 animate delay-7">
+      <a href="#" class="btn btn-outline-dark">عرض جميع العملاء</a>
+    </div>
+
+  </div>
+</section>
+<!-- Clients Section End -->
+
+<!--  call Section start -->
+  <section class="cta-section py-5">
+  <div class="container text-center">
+    <h2 class="cta-title mb-4 cta-animate delay-1" >
+        نحن هنا لندعمك...تواصل معنا وابدأ أولي خطواتك نحو التميز.
+    </h2>
+    <a href="#contact" class="btn btn-cta cta-animate delay-2">تواصل معنا</a>
+  </div>
+</section>
+
+<!--  call Section end -->
+
+
+
+
+
+  
+
+
+
+    </main>
+    <div id="footer"></div>
+    
+
+    <script type="module" src="./js/main.js"></script>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
