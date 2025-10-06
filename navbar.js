@@ -43,7 +43,7 @@ export function loadNavbar() {
     </li>
 
      <li class="nav-item"><a class="nav-link" href="#contact">  متجرنا </a></li>
-    <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+    <li class="nav-item"><a class="nav-link" href="./contact.html">تواصل معنا</a></li>
   </ul>
 </div>
 
@@ -53,3 +53,4 @@ export function loadNavbar() {
     </nav>
   `;
 }
+
