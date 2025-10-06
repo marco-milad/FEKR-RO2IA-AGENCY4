@@ -110,7 +110,6 @@ img {
 /* هذا الكود يعمل مع Bootstrap 5 لتمكين الـ Dropdown بالـ Hover */
 .dropdown:hover > .dropdown-menu {
   display: block;
-  /* يمكنك إضافة تأثيرات انتقال إذا أردت */
 }
 /* إخفاء القائمة عند إزالة التركيز */
 .dropdown > .dropdown-toggle:active {
