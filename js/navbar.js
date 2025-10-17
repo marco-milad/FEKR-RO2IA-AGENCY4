@@ -1,6 +1,6 @@
 export function loadNavbar() {
   return `
-    <nav class="navbar navbar-expand-lg p-5 fixed-top bg-white shadow-sm">
+    <nav class="navbar navbar-expand-lg fixed-top bg-white shadow-sm">
       <div class="container d-flex justify-content-around align-items-around">
          <a class="navbar-brand " href="#">
    <img src="https://res.cloudinary.com/dcui0elwh/image/upload/v1759586832/logo2_cjf7mn.jpg" alt="شعار الشركة"  class="d-inline-block align-text-top" />
@@ -11,7 +11,7 @@ export function loadNavbar() {
 </button>
 
 <div class="collapse navbar-collapse" id="navbarNav">
-  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0" style='background:#fefefe'>
     <li class="nav-item"><a class="nav-link active" href="./index.html">الرئيسية</a></li>
 
     
@@ -26,6 +26,10 @@ export function loadNavbar() {
         <li><a class="dropdown-item" href="#team"> التصميم الرقمي و الجرافيكي</a></li>
         <li><a class="dropdown-item" href="#team">الطباعة والحلول الدعائية والاعلانية </a></li>
         <li><a class="dropdown-item" href="#team">التسويق الالكتروني </a></li>
+        <li><a class="dropdown-item" href="#marketing"> الاستندات</a></li>
+        <li><a class="dropdown-item" href="#design"> لوحات الطرق  </a></li>
+        <li><a class="dropdown-item" href="#consulting"> الدروع التذكارية </a></li>
+        <li><a class="dropdown-item" href="#consulting"> الهدايا الدعاية  </a></li>
       </ul>
      </li>
 
@@ -42,7 +46,9 @@ export function loadNavbar() {
       </ul>
     </li>
 
-     <li class="nav-item"><a class="nav-link" href="#contact">  متجرنا </a></li>
+     <li class="nav-item"><a class="nav-link" href=" # contact">  متجرنا </a></li>
+     <li class="nav-item"><a class="nav-link" href="./events.html">  تنظيم الحفلات و المهرجنات </a></li>
+     <li class="nav-item"><a class="nav-link" href="#contact">  الديكور </a></li>
     <li class="nav-item"><a class="nav-link" href="./contact.html">تواصل معنا</a></li>
   </ul>
 </div>
