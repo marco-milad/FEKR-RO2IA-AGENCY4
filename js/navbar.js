@@ -21,9 +21,9 @@ export function loadNavbar() {
     </a>
       <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#team">  الهويةالموحدة</a></li>
-        <li><a class="dropdown-item" href="#vision">التصميم الاحترافي</a></li>
-        <li><a class="dropdown-item" href="#team"> بناء وتصميم العلامة التجارية</a></li>
-        <li><a class="dropdown-item" href="#team"> التصميم الرقمي و الجرافيكي</a></li>
+        <li><a class="dropdown-item" href="#vision"> التصميم الاحترافي </a></li>
+        <li><a class="dropdown-item" href="#team"> بناء وتصميم العلامة التجارية </a></li>
+        <li><a class="dropdown-item" href="#team"> التصميم الرقمي و الجرافيكي </a></li>
         <li><a class="dropdown-item" href="#team">الطباعة والحلول الدعائية والاعلانية </a></li>
         <li><a class="dropdown-item" href="#team">التسويق الالكتروني </a></li>
         <li><a class="dropdown-item" href="#marketing"> الاستندات</a></li>
