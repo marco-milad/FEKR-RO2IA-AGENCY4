@@ -119,6 +119,7 @@
 
 
   </main>
+   
 
   <!-- Footer -->
   <div id="footer"></div>
@@ -132,12 +133,12 @@ const cards = document.querySelectorAll('.media-offer-section .offer-card');
 const observer = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if(entry.isIntersecting){
-      entry.target.classList.add('in-view'); // شغل الانيميشن
-      observer.unobserve(entry.target);      // يظهر مرة واحدة فقط
+      entry.target.classList.add('in-view'); 
+      observer.unobserve(entry.target);      
     }
   });
 }, {
-  threshold: 0.2 // يظهر لما 20% من الكارد يكون ظاهر
+  threshold: 0.2 
 });
 
 // راقب كل card
