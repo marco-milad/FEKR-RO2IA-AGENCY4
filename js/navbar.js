@@ -33,19 +33,9 @@ export function loadNavbar() {
       </ul>
      </li>
 
-    <!-- خدماتنا Dropdown -->
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-  خدمات الصناعة 
-</a>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#marketing"> الاستندات</a></li>
-        <li><a class="dropdown-item" href="#design"> لوحات الطرق  </a></li>
-        <li><a class="dropdown-item" href="#consulting"> الدروع التذكارية </a></li>
-        <li><a class="dropdown-item" href="#consulting"> الهدايا الدعاية  </a></li>
-      </ul>
-    </li>
+    
 
+     <li class="nav-item"><a class="nav-link" href=" # contact">  الصناعة </a></li>
      <li class="nav-item"><a class="nav-link" href=" # contact">  متجرنا </a></li>
      <li class="nav-item"><a class="nav-link" href="./events.html">  تنظيم الحفلات و المهرجنات </a></li>
      <li class="nav-item"><a class="nav-link" href="#contact">  الديكور </a></li>
